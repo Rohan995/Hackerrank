@@ -1,0 +1,151 @@
+
+
+if __name__ == '__main__':
+    print ("Hello, World!")
+
+
+
+
+
+    #!/bin/python
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+if __name__ == '__main__':
+    N = int(raw_input())
+    if ((N%2==1) or (N%2==0 and N>=6 and N<=20)):
+        print ("Weird")
+    elif ((N==2 or N==4) or (N%2==0 and N>20)):
+        print ("Not Weird")
+
+
+
+
+
+    if __name__ == '__main__':
+    a = int(raw_input())
+    b = int(raw_input())
+    print (a+b)
+    print(a-b)
+    print(a*b)
+
+
+
+
+
+if __name__ == '__main__':
+    a = int(raw_input())
+    b = int(raw_input())
+    print a/b
+    print a/float(b)
+
+
+
+
+
+
+if __name__ == '__main__':
+    n = int(raw_input())
+    for i in range(0,n):
+        print i**2
+        
+
+
+
+
+
+
+        def is_leap(year):
+    leap = False
+    
+    if (year%100==0):
+        if (year%4==0 and year%400==0):
+            leap=True
+    else :
+        if (year%4==0):
+            leap=True
+            
+    return leap
+
+
+
+
+
+
+
+
+if __name__ == '__main__':
+    n = int(raw_input())
+    m=map(str,range(1,n+1))
+    print ''.join(m)
+
+
+
+
+
+
+    if __name__ == '__main__':
+    x = int(raw_input())
+    y = int(raw_input())
+    z = int(raw_input())
+    n = int(raw_input())
+    print [ [ i, j, k] for i in range( x + 1) for j in range( y + 1) for k in range(z+1) if ( ( i + j+k ) != n )]
+
+
+
+
+
+    def swap_case(s):
+ 
+                
+    return s.swapcase()
+
+
+
+
+
+    def split_and_join(line):
+    line=line.split(" ")
+    return "-".join(line)
+
+
+
+
+
+    def print_full_name(a, b):
+    print "Hello"+" "+a+" "+b+"! You just delved into python. "
+
+
+
+
+
+    def mutate_string(string, position, character):
+    return string[:position]+character+string[position+1:]
+
+
+
+
+
+
+    def count_substring(string, sub_string):
+    s=0
+    for i in range(0,len(string)-len(sub_string)+1):
+        flag=0
+        for j in range(0,len(sub_string)):
+            if (string[i+j]!=sub_string[j]):
+                flag=1
+                break
+        if flag==0 :
+            s=s+1
+    
+    return s
+
+
+    
+    
